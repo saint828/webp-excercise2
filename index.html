@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Webプログラミングの演習2</title>
+  <link href="style/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h1>日本大学文理学部情報科学科 Webプログラミングの演習2</h1>
+  <p class="name">情報科学科 5420079 川口聖人</p>
+  <h2>始めに</h2>
+  <p>このサイトは「日本大学文理学部情報科学科 Webプログラミングの演習課題」であり、間違いを含む可能性があります。予めご了承下さい。</p>
+  <h3>&lt;hr&gt;要素</h3>
+  <h4>説明</h4>
+  <p>&lt;hr&gt;要素は、段落レベルのテーマの区切りを表すときに使う要素である。
+    使用例は、話のシーンが変わる時や、参考書のセクション内の別の話題に移る時などです。</p>
+  <h4>マークアップ例</h4>
+  <p>&lt;p&gt;明日の天気は、晴れ時々曇り。&lt;hr&gt;明後日の天気は、雨。&lt;/p&gt;</p>
+  <h4>動作結果</h4>
+  <p>明日の天気は、晴れ時々曇り。<hr>明後日の天気は、雨。</p>
+  <br><br>
+  <h3>&lt;pre&gt;要素</h3>
+  <h4>説明</h4>
+  <p>&lt;pre&gt;要素は、フォーマット済みのテキストを表します。
+    &lt;pre&gt;要素の中に書かれたテキストは、スペースがそのまま表示される。この要素の使用例は、コンピュータコードを、その言語の規則に従って構造を保ちながら表示する時や、
+  アスキーアートを表示する時などに使います。</p>
+  <h4>マークアップ例</h4>
+  <p><pre>
+  &lt;pre&gt;bool ifPrime(int n) {
+    if(n &amp;lt;= 1) return false;
+    for(int i = 2;i&amp;lt;n;i++) {
+      if(n%i == 0) {
+         return false;
+      }
+    }
+    return true;
+  }&lt;/pre&gt;</pre></p>
+  <h4>動作結果</h4>
+  <pre>bool ifPrime(int n) {
+  if(n &lt;= 1) return false;
+  for(int i = 2;i&lt;n;i++) {
+    if(n%i == 0) {
+       return false;
+    }
+  }
+  return true;
+}</pre>
+
+  <br><br>
+  <h3>&lt;hr&gt;要素</h3>
+  <h4>説明</h4>
+  <p>&lt;hr&gt;要素は、段落レベルのテーマの区切りを表すときに使う要素である。
+    使用例は、話のシーンが変わる時や、参考書のセクション内の別の話題に移る時などです。</p>
+  <h4>マークアップ例</h4>
+  <p>&lt;p&gt;明日の天気は、晴れ時々曇り。&lt;hr&gt;明後日の天気は、雨。&lt;/p&gt;</p>
+  <h4>動作結果</h4>
+  <p>明日の天気は、晴れ時々曇り。<hr>明後日の天気は、雨。</p>
+<div class="references"><h2>参考にしたサイト</h2><p><a href="https://html.spec.whatwg.org/multipage/#toc-semantics">https://html.spec.whatwg.org/multipage/#toc-semantics</a></p></div>
+</body>
+
+</html>
