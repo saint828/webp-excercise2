@@ -13,24 +13,25 @@
     <p class="name">情報科学科 5420079 川口聖人</p>
   </header>
   <main>
+    <h2>はじめに</h2>
+    <p>本サイトは日本大学文理学部情報科学科Webプログラミングの演習課題です。</p>
     <div>
       <h3>&lt;hr&gt;要素</h3>
       <h4>説明</h4>
-      <p>&lt;hr&gt;要素は、段落レベルのテーマの区切りを表すときに使う要素である。
-        使用例は、話のシーンが変わる時や、参考書のセクション内の別の話題に移る時などです。</p>
+      <p>&lt;hr&gt;要素は、段落レベルのテーマの区切りを表すときに使う要素です。
+        この要素を使う場面は、話のシーンが変わる時や、参考書のセクション内の別の話題に移る時などです。</p>
       <h4>マークアップ例</h4>
-      <p>&lt;p&gt;明日の天気は、晴れ時々曇り。&lt;hr&gt;明後日の天気は、雨。&lt;/p&gt;</p>
+      <p>&lt;p&gt;明日の天気は、晴れ時々曇り。&lt;/p&gt;&lt;hr&gt;&lt;p&gt;明後日の天気は、雨。&lt;/p&gt;</p>
       <h4>動作結果</h4>
-      <p>明日の天気は、晴れ時々曇り。
-        <hr>明後日の天気は、雨。
-      </p>
+      <p>明日の天気は、晴れ時々曇り。</p>
+      <hr>
+      <p>明後日の天気は、雨。</p>
     </div>
-    <br><br>
     <div>
       <h3>&lt;pre&gt;要素</h3>
       <h4>説明</h4>
       <p>&lt;pre&gt;要素は、フォーマット済みのテキストを表します。
-        &lt;pre&gt;要素の中に書かれたテキストは、スペースがそのまま表示される。<br>この要素の使用例は、コンピュータコードを、その言語の規則に従って構造を保ちながら表示する時や、
+        &lt;pre&gt;要素の中に書かれたテキストは、スペースがそのまま表示されます。この要素の使用例は、コンピュータコードを、その言語の規則に従って構造を保ちながら表示する時や、
         アスキーアートを表示する時などに使います。</p>
       <h4>マークアップ例</h4>
       <p>
@@ -56,30 +57,39 @@
   return true;
 }</pre>
     </div>
-    <br><br>
     <div>
-      <h3>&lt;hr&gt;要素</h3>
+      <h3>&lt;br&gt;要素</h3>
       <h4>説明</h4>
-      <p>&lt;hr&gt;要素は、段落レベルのテーマの区切りを表すときに使う要素である。
-        使用例は、話のシーンが変わる時や、参考書のセクション内の別の話題に移る時などです。</p>
-      <h4>マークアップ例</h4>
-      <p>&lt;p&gt;明日の天気は、晴れ時々曇り。&lt;hr&gt;明後日の天気は、雨。&lt;/p&gt;</p>
-      <h4>動作結果</h4>
-      <p>明日の天気は、晴れ時々曇り。
-        <hr>明後日の天気は、雨。
+      <p>
+        &lt;br&gt;要素は、詩や住所のように、実際にはコンテンツの一部である改行にのみ使用する必要があります。この要素は、段落内の主題グループを区切るために使用してはいけなく、その場合では&lt;p&gt;要素を用いて段落を分けるのが好ましい。
       </p>
-      <div class="references">
-        <h2>参考にしたサイト</h2>
-        <p>
-        <ul>
-          <li>「4 The elements of HTML」HTML Living Standard<a
-              href="https://html.spec.whatwg.org/multipage/#toc-semantics">https://html.spec.whatwg.org/multipage/#toc-semantics</a> (2021,11,01)
-            </p>
-        </ul>
-      </div>
+      <h4>マークアップ例</h4>
+      <p>&lt;p&gt;古池や&lt;br&gt;蛙とびこむ&lt;br&gt;水の音&lt;br&gt;&lt;/p&gt;</p>
+      <h4>動作結果</h4>
+      <p>古池や<br>蛙とびこむ<br>水の音<br></p>
+    </div>
+    <div class="references">
+      <h2>参考にしたサイト</h2>
+      <p>
+      <ul>
+        <li>「4.4 Grouping content」HTML Living Standard<a
+            href="https://html.spec.whatwg.org/multipage/grouping-content.html">https://html.spec.whatwg.org/multipage/grouping-content.html</a>
+          (2021,11,01)
+        </li>
+        <li>「4.5 Text-level semantics」HTML Living Standard<a
+            href="https://html.spec.whatwg.org/multipage/text-level-semantics.html">https://html.spec.whatwg.org/multipage/text-level-semantics.html</a>
+          (2021,11,01)
+        </li>
+        <li>
+          Living Standardは、<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank">クリエイティブ・コモンズ
+            表示 4.0 国際 ライセンス</a>の下に提供されています。
+        </li>
+        </p>
+      </ul>
+    </div>
   </main>
   <footer>
-    <p>© 川口聖人</p>
+    <p>© 川口聖人 2021</p>
   </footer>
 </body>
 
